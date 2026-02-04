@@ -5,11 +5,12 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.container-form{
-	position: relative;
-	display: incline-block;
+.container-form {
+    position: relative;
+    display: inline-block;
 	text-align: center;
-	background-size: cover;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .information{
@@ -18,7 +19,7 @@
  box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
  height: 500px;
  max-width: 900px;
- transition: all is ease;
+ transition: all 1s ease;
  margin: 10px;
  color: black;
  position: absolute;
@@ -155,7 +156,7 @@ color: #555;
 }
 
 .hide{
- display:flex;
+ display: none !important;
  border-radius: 20px;
  box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
  height: 500px;
@@ -209,4 +210,5 @@ color: #555;
 	padding: 20px;
 	border-bottom-left-radius: 20px;
 	border-top-right-radius: 0px;
+
 }
